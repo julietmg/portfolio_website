@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="e n">
+
+<head class="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="<link rel=" stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4a5b5a4170.js" crossorigin="anonymous"></script>
+
+    <title> Portfolio </title>
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav-logo">
+            <img src="images/my_logo2.png">
+        </div>
+
+        <!-- We show the hamburger only on small screens. -->
+        <div class="hamburger-container"
+            onclick="document.getElementById('hamburger').checked = !document.getElementById('hamburger').checked; this.classList.toggle('active')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
+                <g stroke-width="6.5" stroke-linecap="round">
+                    <path d="M72 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#446A46" />
+                    <path
+                        d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                        fill="none" stroke="#446A46" />
+                    <path d="M72 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#446A46" />
+                    <path
+                        d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                        fill="none" stroke="#446A46" />
+                    <path d="M100.75 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#446A46" />
+                    <path d="M100.75 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#446A46" />
+                </g>
+            </svg>
+        </div>
+        <input type="checkbox" id="hamburger" />
+
+        <!-- Otherwise we show the nav items as a list. -->
+        <ul class="nav-items">
+            <li><a href='index.html' data-item='Home'>Home</a></li>
+            <li><a href='portfolio.html' data-item='Portfolio'>Portfolio</a></li>
+            <li><a href='about_me.html' data-item='About Me'>About Me</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <div class="container-top">
+            <div class="child">
+                <h1 class="hello"> Have a look at the websites I have created so far! </h1>
+            </div>
+        </div>
+        <div class="container-bottom">
+            <a href="https://julietmg.github.io/insecta/">
+                <img class="insecta" src="images/insectah.png">
+            </a>
+            <a href=" https://julietmg.github.io/model_portfolio/static_version/">
+                <img class="model" src="images/modelj.png">
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="last-project">
+        <a href="https://julietmg.github.io/your_being/public_static/">
+            <img class="being" src="images/your_being1.png">
+        </a>
+    </div>
+
+
+    <footer class="footer">
+        <div class="inner footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"> <a href="https://www.linkedin.com/in/julia-geborys-60866a168/"> <i
+                                class="fa-brands fa-linkedin"></i> </a> </li>
+                    <li class="social-items"> <a href="https://github.com/julietmg"> <i class="fa-brands fa-github"></i>
+                        </a> </li>
+                    <li class="social-items"> <a href="https://www.instagram.com/geborys.julia/?hl=en"> <i
+                                class="fa-brands fa-instagram"></i> </a> </li>
+                </ul>
+            </div>
+
+
+            <div class="quick-links">
+                <ul>
+                    <li class="quick-items"> <a href="#"> Home </a> </li>
+                    <li class="quick-items"> <a href="#"> Portfolio </a> </li>
+                    <li class="quick-items"> <a href="#"> About Me </a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="outer-footer">
+            Copyright 2022 &copy; Julia Geborys. All Rights Reserved
+
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+    <script src="scripts/script.js"> </script>
+</body>
+
+</html>
